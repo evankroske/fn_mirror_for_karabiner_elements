@@ -88,13 +88,19 @@
             "key_code": "2",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "hyphen"
@@ -107,13 +113,19 @@
             "key_code": "3",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "0"
@@ -126,13 +138,19 @@
             "key_code": "4",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "9"
@@ -145,13 +163,19 @@
             "key_code": "5",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "8"
@@ -164,13 +188,19 @@
             "key_code": "6",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "7"
@@ -183,13 +213,19 @@
             "key_code": "7",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "6"
@@ -202,13 +238,19 @@
             "key_code": "8",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "5"
@@ -221,13 +263,19 @@
             "key_code": "9",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "4"
@@ -240,13 +288,19 @@
             "key_code": "0",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "3"
@@ -259,13 +313,19 @@
             "key_code": "hyphen",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "2"
@@ -278,13 +338,19 @@
             "key_code": "equal_sign",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "1"
@@ -297,16 +363,22 @@
             "key_code": "delete_or_backspace",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
-              "key_code": "non_us_backslash"
+              "key_code": "grave_accent_and_tilde"
             }
           ],
           "type": "basic"
@@ -316,13 +388,19 @@
             "key_code": "tab",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "open_bracket"
@@ -335,13 +413,19 @@
             "key_code": "q",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "p"
@@ -354,13 +438,19 @@
             "key_code": "w",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "o"
@@ -373,13 +463,19 @@
             "key_code": "e",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "i"
@@ -392,13 +488,19 @@
             "key_code": "r",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "u"
@@ -411,13 +513,19 @@
             "key_code": "t",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "y"
@@ -430,13 +538,19 @@
             "key_code": "y",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "t"
@@ -449,13 +563,19 @@
             "key_code": "u",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "r"
@@ -468,13 +588,19 @@
             "key_code": "i",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "e"
@@ -487,13 +613,19 @@
             "key_code": "o",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "w"
@@ -506,13 +638,19 @@
             "key_code": "p",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "q"
@@ -525,13 +663,19 @@
             "key_code": "open_bracket",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "tab"
@@ -544,13 +688,19 @@
             "key_code": "caps_lock",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "return_or_enter"
@@ -563,13 +713,19 @@
             "key_code": "a",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "semicolon"
@@ -582,13 +738,19 @@
             "key_code": "s",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "l"
@@ -601,13 +763,19 @@
             "key_code": "d",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "k"
@@ -620,13 +788,19 @@
             "key_code": "f",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "j"
@@ -639,13 +813,19 @@
             "key_code": "g",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "h"
@@ -658,13 +838,19 @@
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "g"
@@ -677,13 +863,19 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "f"
@@ -696,13 +888,19 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "d"
@@ -715,13 +913,19 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "s"
@@ -734,13 +938,19 @@
             "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "a"
@@ -753,13 +963,19 @@
             "key_code": "quote",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "grave_accent_and_tilde"
@@ -772,13 +988,19 @@
             "key_code": "return_or_enter",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "caps_lock"
@@ -791,13 +1013,19 @@
             "key_code": "grave_accent_and_tilde",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "quote"
@@ -810,13 +1038,19 @@
             "key_code": "z",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "slash"
@@ -829,13 +1063,19 @@
             "key_code": "x",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "period"
@@ -848,13 +1088,19 @@
             "key_code": "c",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "comma"
@@ -867,13 +1113,19 @@
             "key_code": "v",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "m"
@@ -886,13 +1138,19 @@
             "key_code": "b",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "n"
@@ -905,13 +1163,19 @@
             "key_code": "n",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "b"
@@ -924,13 +1188,19 @@
             "key_code": "m",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "v"
@@ -943,13 +1213,19 @@
             "key_code": "comma",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "c"
@@ -962,13 +1238,19 @@
             "key_code": "period",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "x"
@@ -981,13 +1263,19 @@
             "key_code": "slash",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "z"
