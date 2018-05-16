@@ -1,8 +1,8 @@
 {
-  "title": "Fn Mirror",
+  "title": "Space Mirror",
   "rules": [
     {
-      "description": "Mirrors the keyboard when Print Screen is pressed.",
+      "description": "Mirrors the keyboard when the spacebar is held down.",
       "manipulators": [
         {
           "from": {
@@ -25,7 +25,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "g",
+            "key_code": "spacebar",
             "modifiers": {
               "mandatory": [],
               "optional": [
@@ -33,13 +33,6 @@
               ]
             }
           },
-          "conditions": [
-            {
-              "type": "variable_unless",
-              "name": "mirror_mode",
-              "value": 1
-            }
-          ],
           "to": [
             {
               "set_variable": {
@@ -47,32 +40,18 @@
                 "value": 1
               }
             }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "g",
-            "modifiers": {
-              "mandatory": [],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mirror_mode",
-              "value": 1
-            }
           ],
-          "to": [
+          "to_after_key_up": [
             {
               "set_variable": {
                 "name": "mirror_mode",
                 "value": 0
               }
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "spacebar"
             }
           ]
         },
