@@ -2,7 +2,7 @@
   "title": "Fn Mirror",
   "rules": [
     {
-      "description": "Mirror the keyboard when Fn is held. Consider Sticky Keys!",
+      "description": "Mirrors the keyboard when Print Screen is pressed.",
       "manipulators": [
         {
           "type": "basic",
@@ -18,14 +18,14 @@
           "conditions": [
             {
               "type": "variable_unless",
-              "name": "sticky_fn",
+              "name": "mirror_mode",
               "value": 1
             }
           ],
           "to": [
             {
               "set_variable": {
-                "name": "sticky_fn",
+                "name": "mirror_mode",
                 "value": 1
               }
             }
@@ -45,14 +45,14 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "sticky_fn",
+              "name": "mirror_mode",
               "value": 1
             }
           ],
           "to": [
             {
               "set_variable": {
-                "name": "sticky_fn",
+                "name": "mirror_mode",
                 "value": 0
               }
             }
@@ -60,35 +60,22 @@
         },
         {
           "from": {
-            "key_code": "non_us_backslash",
-            "modifiers": {
-              "mandatory": [
-                "fn"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "delete_or_backspace"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
             "key_code": "1",
             "modifiers": {
               "mandatory": [
-                "fn"
               ],
               "optional": [
                 "any"
               ]
             }
           },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mirror_mode",
+              "value": 1
+            }
+          ],
           "to": [
             {
               "key_code": "equal_sign"
