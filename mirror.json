@@ -5,6 +5,24 @@
       "description": "Mirrors the keyboard when Print Screen is pressed.",
       "manipulators": [
         {
+          "from": {
+            "key_code": "pause",
+            "modifiers": {
+              "mandatory": [
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "type": "basic"
+        },
+        {
           "type": "basic",
           "from": {
             "key_code": "print_screen",
